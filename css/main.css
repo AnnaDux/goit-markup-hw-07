@@ -559,4 +559,57 @@ a {
 
 .hero__modal-btn {
   padding: 10px 32px;
+}
+
+.benefits {
+  width: 100%;
+  min-height: 286px;
+  margin: 0 auto;
+}
+
+.benefits__list {
+  padding-left: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.benefits__item {
+  width: 270px;
+  padding: auto 0;
+}
+
+.benefits__item:not(:last-child) {
+  margin-right: 0;
+  padding-right: 0;
+  margin-right: 30px;
+}
+
+.benefits__img {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.benefits__title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text);
+  margin-bottom: 10px;
+}
+
+.benefits__text {
+  line-height: 1.71;
 }/*# sourceMappingURL=main.css.map */
