@@ -6,9 +6,9 @@
     text-align: center;
     display: flex;
     justify-content: center;
-}
 
-.hero__bg-img {
+
+&__bg-img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/hero-img.jpg);
     background-repeat: no-repeat;
@@ -20,7 +20,8 @@
     padding-bottom: 200px;
 }
 
-.hero__title {
+
+&__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -34,8 +35,19 @@
 }
 
 
-
-
-.hero__modal-btn {
+&__modal-btn {
     padding: 10px 32px;
 }
+
+
+
+
+}
+
+
+
+
+
+
+
+
