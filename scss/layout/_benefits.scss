@@ -2,38 +2,35 @@
     width: 100%;
     min-height: 286px;
     margin: 0 auto;
-}
 
-
-.benefits__list {
-    padding-left: 0;
+    &__list{
+        padding-left: 0;
     display: inline-flex;
-}
+    }
 
-.benefits__item {
+    &__item{
     width: 270px;
     padding: auto 0;
-}
 
-.benefits__item:not(:last-child) {
-    margin-right: 0;
-    padding-right: 0;
-    margin-right: 30px;
-}
+        &:not(:last-child){
+                margin-right: 0;
+                padding-right: 0;
+                margin-right: 30px;} }
+
+    
+        &__img {
+            width: 270px;
+            height: 120px;
+            background: #f5f4fa;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
 
 
-.benefits__img {
-    width: 270px;
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.benefits__title {
+&__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -41,6 +38,12 @@
     margin-bottom: 10px;
 }
 
-.benefits__text {
+&__text {
     line-height: 1.71;
 }
+    }
+
+
+
+
+
