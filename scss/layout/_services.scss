@@ -1,22 +1,23 @@
 .services {
     padding-top: 0;
-}
 
-.services__list {
+&__list {
     display: inline-flex;
 }
 
-.services__item:not(:last-child) {
-    margin-right: 30px;
-}
 
-.services__item {
+&__item {
     position: relative;
     z-index: -100;
 
+    &:not(:last-child) {
+    margin-right: 30px;
 }
 
-.services__text {
+}
+
+
+&__text {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -39,3 +40,12 @@
     align-items: center;
 
 }
+
+}
+
+
+
+
+
+
+
